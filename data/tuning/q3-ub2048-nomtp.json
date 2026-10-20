@@ -1,0 +1,19 @@
+{
+ "config": "q3-ub2048-nomtp",
+ "args": "-m /weights/UD-Q3_K_XL/Qwen3.8-Flash-Next-UD-Q3_K_XL-00001-of-00003.gguf -c 131072 -np 1 -b 4096 -ub 2048",
+ "common": "--alias m -ngl 99 -fa on --jinja --chat-template-file /templates/qwen3.8-flash-next-inline-system.jinja --reasoning-format auto --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0 --repeat-penalty 1.0 --presence-penalty 0",
+ "headroom_before_gib": 105.44,
+ "load_s": 115.9,
+ "headroom_loaded_gib": 13.7,
+ "decode_tok_s": 31.7,
+ "draft_accept": [
+  null,
+  null
+ ],
+ "ttft_16k_s": 18.86,
+ "prefill_16k_tok_s": 869,
+ "ttft_64k_s": 71.51,
+ "prefill_64k_tok_s": 916,
+ "ttft_16k_repeat_s": 3.35,
+ "min_headroom_gib": 17.99
+}

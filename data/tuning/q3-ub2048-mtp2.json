@@ -1,0 +1,19 @@
+{
+ "config": "q3-ub2048-mtp2",
+ "args": "-m /weights/UD-Q3_K_XL/Qwen3.8-Flash-Next-UD-Q3_K_XL-00001-of-00003.gguf -c 131072 -np 1 -b 4096 -ub 2048 --spec-type draft-mtp -md /weights/mtp-Qwen3.8-Flash-Next-Q8_0.gguf -ngld 99 --spec-draft-n-max 2",
+ "common": "--alias m -ngl 99 -fa on --jinja --chat-template-file /templates/qwen3.8-flash-next-inline-system.jinja --reasoning-format auto --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0 --repeat-penalty 1.0 --presence-penalty 0",
+ "headroom_before_gib": 116.62,
+ "load_s": 95.7,
+ "headroom_loaded_gib": 16.76,
+ "decode_tok_s": 34.2,
+ "draft_accept": [
+  479,
+  1086
+ ],
+ "ttft_16k_s": 20.11,
+ "prefill_16k_tok_s": 815,
+ "ttft_64k_s": 73.65,
+ "prefill_64k_tok_s": 890,
+ "ttft_16k_repeat_s": 3.57,
+ "min_headroom_gib": 10.23
+}
