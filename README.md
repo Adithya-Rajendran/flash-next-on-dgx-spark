@@ -2,7 +2,7 @@
 
 > **Moved.** This is now the Flash-Next deep dive in
 > [dgx-spark-benchmarks](https://github.com/Adithya-Rajendran/dgx-spark-benchmarks/tree/main/flash-next),
-> alongside the other models tested the same way, and it is updated there (4-bit results included).
+> alongside the other models tested the same way, and further results (including 4-bit) will be added there.
 > This repository is archived and read-only.
 
 Measured data, not vendor numbers: Qwen3.8-Flash-Next (125B total / 6B active, plus a 51B n-gram table)
