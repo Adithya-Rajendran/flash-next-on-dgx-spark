@@ -1,5 +1,10 @@
 # Qwen3.8-Flash-Next on a DGX Spark-class box, as a coding agent
 
+> **Moved.** This is now the Flash-Next deep dive in
+> [dgx-spark-benchmarks](https://github.com/Adithya-Rajendran/dgx-spark-benchmarks/tree/main/flash-next),
+> alongside the other models tested the same way, and it is updated there (4-bit results included).
+> This repository is archived and read-only.
+
 Measured data, not vendor numbers: Qwen3.8-Flash-Next (125B total / 6B active, plus a 51B n-gram table)
 running **Claude Code as an autonomous coding agent** on an ASUS Ascent GX10 (NVIDIA GB10, 128 GB unified
 memory, ~273 GB/s; the same class of machine as the DGX Spark and the RTX Spark laptops), graded with hidden
